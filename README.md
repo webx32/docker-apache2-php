@@ -1,7 +1,7 @@
-docker-ubuntu-php-stable
-========================
+docker-apache2-php
+==================
 This is the base image with supported Ubuntu Long-Term-Support versions, apache and stable PHP.
-You find it on the docker repository under [rootlogin/ubuntu-php-stable](https://index.docker.io/u/rootlogin/ubuntu-php-stable/)
+You find it on the docker repository under [rootlogin/apache2-php](https://index.docker.io/u/rootlogin/apache2-php/)
 
 Currently available Ubuntu versions:
 - 12.04 LTS
