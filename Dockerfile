@@ -9,6 +9,7 @@ RUN echo "deb http://ppa.launchpad.net/ondrej/php5/ubuntu precise main" >> /etc/
 # Install everything needed
 RUN export DEBIAN_FRONTEND=noninteractive && \
     apt-get -y upgrade && \
+    apt-get -y install git && \
     apt-get -y install apache2 libapache2-mod-php5 php5 php5-cli php5-curl php5-gd php5-imagick php5-sqlite php5-intl php5-mcrypt php5-xdebug php5-apcu
 
 # Install composer

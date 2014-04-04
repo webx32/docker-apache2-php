@@ -16,6 +16,7 @@ Installed tools:
 - nano
 - curl
 - [Composer](http://getcomposer.com)
+- git
 
 Installed PHP Modules
 - curl
